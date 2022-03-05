@@ -1,0 +1,52 @@
+https://anonfile.com/S8c5Tab2ba/API_DDOS_by_KATRiX.rar
+______________________
+
+TUTORIEL:
+
+1- Tout d'abord, vous devez upload le fichier "testing.c" ainsi que le fichier "list.txt" dans root.
+
+2- Ensuite, vous devez taper toutes les commandes qui se trouvent dans "commandes.txt" dans votre Linux.
+C'est-à-dire:
+
+yum install httpd mod_ssl
+/sbin/chkconfig httpd on
+yum install php-mysql php-devel php-gd php-pecl-memcache php-pspell php-snmp php-xmlrpc php-xml
+/usr/sbin/apachectl restart
+yum install make
+yum install gcc
+yum update
+yum install gcc php-devel php-pear libssh2 libssh2-devel
+pecl install -f ssh2
+touch /etc/php.d/ssh2.ini
+echo extension=ssh2.so > /etc/php.d/ssh2.ini
+setsebool -P httpd_can_network_connect 1
+/etc/init.d/httpd restart
+php -m | grep ssh2
+gcc -o testing testing.c -pthread
+yum install dstat
+yum install screen
+yum install cpan
+cpan
+install Net::RawIP
+
+3- Puis upload le fichier down.php dans var/www/html
+
+4- Modifier pour mettre l'IP de la machine, nom d'utilisateur et mot de passe.
+
+Et voilà, rien de plus simple, votre API pourra être accessible de la forme suivante:
+http://ipduvps/down.php?host=[IP]&port=[port]&time=[TEMPS]&method=UDP
+_________________________
+
+Votre API est désormais fonctionnelle, si vous essayez de lancer une attaque depuis cette api,
+c'est normal si la page charge après l'avoir lancé, ça signifie que l'attaque est en cours, une fois
+qu'elle n'est plus en cours, un message disant que l'attaque est terminée apparaît. Tout dépend du nombre de secondes que vous avez taper dans l'URL.
+_________________________
+
+Erreurs qui peuvent survenir:
+
+Si votre VPS est innacessible, qu'il affiche une erreur de "ne répond pas", c'est que votre VPS à surement un bug à vous de le rebooter à l'aide de la commande "reboot" sans les guillemets.
+
+Si votre VPS vous indique une erreur "HTTP ERROR 500", c'est le down.php que vous avez mal configuré, vous avez rajouter une ligne ou une lettre que vous ne devez pas.
+
+Si votre VPS vous indique une erreur "N'autorise pas la connexion", assurez vous que le port 80 soit accepté dans votre firewall.
+_________________________

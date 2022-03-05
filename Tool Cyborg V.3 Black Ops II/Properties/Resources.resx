@@ -1,0 +1,808 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CyborgV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CyborgV1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zario_v1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zario v1.0.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExoTiQueModz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExoTiQueModz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BossamV6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BossamV6.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OldLastV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OldLastV1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="1yy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1yy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="28170108_381307235674236_1269340887_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\28170108_381307235674236_1269340887_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExoTiQueModz__OldModz95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExoTiQueModz__OldModz95.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alca_v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alca v2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Alca_V3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alca V3.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AntiFed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AntiFed.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="arctic_v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arctic v3.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Army" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Army.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="army_v4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\army v4.gscr;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Avalanger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avalanger.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Aviation_v1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aviation v1.5.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BAREFACE_LEO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BAREFACE LEO.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BELGUIM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BELGUIM.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Blazed_V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blazed V1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Blue_Sky_V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue Sky V1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Blue_Sky_V2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue Sky V2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BossamV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BossamV1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Bossam_V3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bossam V3.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Bossam_V4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bossam V4.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Bossam_V5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bossam V5.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Bounce_Mod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bounce Mod.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Breaking_Earth_V1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Breaking Earth V1.1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CacheCache1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CacheCache1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cairo_PAtch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cairo PAtch.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Caked_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Caked UP.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Caked_Up_Has_Swag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Caked_Up_Has_Swag.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Capofication_V2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Capofication V2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Closing_Time_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Closing Time v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Codeine_Crazy_Official_Release" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Codeine Crazy Official Release .gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CodeMods_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CodeMods v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Code_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Code Green.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Confusion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Confusion.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Corrupted_v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Corrupted v3.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Corrupted_v3_BETA_1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Corrupted v3 BETA 1.5.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Creation_V1_Beta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Creation V1 Beta.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Crisis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crisis .gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="crusher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crusher.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Crusher11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crusher11.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CyanEdition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CyanEdition.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Daniel_Wasa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Daniel Wasa.gscr;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dark_Moon_V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark Moon V1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dark_Shadows_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark Shadows v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DeathRun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeathRun.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Death_Cry_V1_BETA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Death Cry V1 BETA.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Deep_ocean_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deep ocean v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="deeznutzv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deeznutzv1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Degeneration_v1_1_BETA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Degeneration v1.1 BETA.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Delusion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Delusion.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Destinition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Destinition.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Destiny_By_Enston" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Destiny By Enston.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiizyMoDz_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiizyMoDz v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DMT_V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DMT V1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dreadnought_V3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dreadnought V3.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dreadnought_V4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dreadnought V4.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dynamic_v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dynamic v2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dynamic_V3_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dynamic V3.1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dynamic_V3_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dynamic V3.3.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EB_Game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EB Game.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ELeGanCe_Patch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ELeGanCe Patch.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ELeGanCe_v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ELeGanCe v3.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Elegance_V5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elegance V5.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EnCoReV2_3_BETA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnCoReV2.3 BETA.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="enslaved" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enslaved.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ERUPTIONV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ERUPTIONV2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Escalation_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Escalation v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Exotic_V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exotic V1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Exotic_V2_BETA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exotic V2 BETA.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Experience" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Experience.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Exploit_V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exploit_V1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Explosive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosive.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Extincts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Extincts.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Extinct_s_S_D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Extinct's S&amp;D.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FenixV5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FenixV5.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ferrox_V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ferrox V1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FlamezV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlamezV1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Floater_Game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Floater Game.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Floor_Lave_Game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Floor Lave Game.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FREEFALL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FREEFALL.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Free_All" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Free All.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Frosty_V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frosty V1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FroZ_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FroZ v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FroZ_v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FroZ v2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Fuck_Sony_v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fuck Sony v3.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Game_Border_Patrol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game Border Patrol.gscr;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Game_Dodgeball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game Dodgeball.gscr;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Game_Prison_Break" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game Prison Break.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Game_Superman_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game Superman 1v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Game_Tricky_Myers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game Tricky Myers.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Game__Nuketown_Survival" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game  Nuketown Survival.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Genesis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Genesis.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GermanModzHD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GermanModzHD.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GoldenGun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GoldenGun.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GreenGoblin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenGoblin.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Haunted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Haunted.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Haunted1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Haunted.gscr;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HexyModz_Private_Patch_v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HexyModz Private Patch v2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Hide_and_Seek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hide and Seek.gscr;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HostOnlys_Private" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HostOnlys Private.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HostOnlys_Trickshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HostOnlys Trickshot.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HostOnly_s_Private" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HostOnly's Private.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Hunaveli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hunaveli.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Hundergame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hundergame.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Hunger_Games" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hunger Games.gscr;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hydro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hydro.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iconic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconic.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Illuison_V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Illuison V1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IMT_V2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMT V2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INFINITI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\INFINITI.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="JiggyMenuV4_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JiggyMenuV4.2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="JR_JS_V5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JR JS V5.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="JR_JS_V6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JR JS V6.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Legend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Legend.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Legends_Curse_V1_Beta_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Legends Curse V1 Beta 2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lol2b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lol2b.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lost_Memories_Love" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lost Memories Love.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LoveOrHatebyxKraveModz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LoveOrHatebyxKraveModz.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Luckyshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luckyshot.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lyberta_V2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lyberta V2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mario_Kart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mario Kart.gscr;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Masacre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Masacre.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Masacre_v1_zomboe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Masacre v1 zomboe.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Matrix_Trickshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Matrix Trickshot.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mettre_api" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mettre api.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ModeMenuFDP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ModeMenuFDP.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mod_Menu_xTvxyv_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mod Menu xTvxyv 1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MWS_Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MWS Menu.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Night_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Night v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NinjaModzv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NinjaModzv1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Nyctophilia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nyctophilia.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oCmKs_4_Lifes_Private_Patch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oCmKs 4 Lifes Private Patch.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Official_Project_Hiqh_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Official Project Hiqh v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Original_Zombieland_Game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Original Zombieland Game.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Overdrive_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Overdrive v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Parcour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Parcour.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Parcour11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Parcour11.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PlasmaMods_V3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlasmaMods V3.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Predator_v1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Predator v1.3.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Predator_v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Predator v2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Predator_v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Predator v3.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Predator_v6_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Predator v6.51.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProjectAqua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProjectAqua.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProjectExcellence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProjectExcellence.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProjectFroZv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProjectFroZv1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProjectFroZv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProjectFroZv2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProjectHunaveli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProjectHunaveli.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Projecticonic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Projecticonic.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProjectIlluminati" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProjectIlluminati.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProjectLemonv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProjectLemonv1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProjectMellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProjectMellow.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProjectUnity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProjectUnity.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProjectWaves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProjectWaves.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProjectWezarq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProjectWezarq.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Dream" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Dream.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Escape_V3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Escape V3.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Hiqh_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Hiqh v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Hydra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Hydra.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Iconic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Iconic.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Lemon_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Lemon v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Lethal_v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Lethal v2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Old" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Old.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Reeko_v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Reeko v2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Smash_V2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Smash V2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Snow_V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Snow V1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Stoner_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Stoner v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_TCM_V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project TCM V1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Ultimate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Ultimate.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Unity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Unity.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Unlimited_v1_5_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Unlimited v1.5.4.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Untlimited_v1_4_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Untlimited v1.4.2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project X.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Project_Zombee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project Zombee.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="projetescape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\projetescape.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PS3DOWN_FR_V4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS3DOWN.FR V4.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Purlple_Kuch_v4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Purlple Kuch v4.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PurpleEdition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PurpleEdition.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Purple_Dragon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Purple Dragon.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Rawdog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rawdog.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RDC_V6_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RDC V6.7.GSC;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rebelv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rebelv1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Reblunted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reblunted.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Reborn_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reborn v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RedDotCity_v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedDotCity v2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RedEdition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedEdition.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Redemption_V1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Redemption V1.8.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Red_Rooster_V1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Red-Rooster V1.2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Red_Tear_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Red Tear v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Red_Tear_v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Red Tear v2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Red_Tear_v2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Red Tear v2.1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Revolution" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Revolution.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ride_My_BicycleV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ride_My_BicycleV2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sex_Game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sex Game.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Silent_Menu_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Silent Menu v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Silent_Menu_v1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Silent Menu v1.8.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Silent_Shadow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Silent Shadow.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sky_High_v2_new_menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sky High v2 new menu.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Slenderman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slenderman.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Snakemodz1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snakemodz1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Space_Bound_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Space Bound v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Space_Bound_v1_SML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Space Bound v1 SML.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSM_Millennium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSM Millennium.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSM_The_Cypher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSM The Cypher.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SS_Billcam_CONSUMER_EDITION_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SS Billcam CONSUMER EDITION 1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Superman_Game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Superman Game.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Synthbreaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Synthbreaker.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Synthbreaker_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Synthbreaker v1.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Syzygyv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Syzygyv2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Syzygyv2compiled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Syzygyv2compiled.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TheCrusher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheCrusher.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TheLastOreoV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheLastOreoV2.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TheLastOreoV3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheLastOreoV3.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TheLastOreoV3Stealth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheLastOreoV3Stealth.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="The_Golden_Gun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Golden Gun.gscr;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TnTRun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TnTRun.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TogetherPrivate_Patch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TogetherPrivate Patch.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WhiteWater_v5_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteWater v5.5.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xePixTvx_s_Private_Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xePixTvx's Private Menu.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="XPLobby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XPLobby.gscr;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ZombieLand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZombieLand.gsc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0B440327-8B03-4CC8-84F7-02DA8CA34B32}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tool_Cyborg_V._3_Black_Ops_II</RootNamespace>
+    <AssemblyName>Tool Cyborg V.3 Black Ops II</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>https://facebook.com/ExoTiQueMoDz</SupportUrl>
+    <ErrorReportUrl>https://facebook.com/ExoTiQueMoDz</ErrorReportUrl>
+    <ProductName>ExoTiQueMoDz et Oldmodz</ProductName>
+    <PublisherName>Tool Cyborg V.3 By ExoTiQueMoDz et Oldmodz95</PublisherName>
+    <DisallowUrlActivation>true</DisallowUrlActivation>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <ExcludeDeploymentUrl>true</ExcludeDeploymentUrl>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>10_image.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>EB0C76CC0FA29D97D566120D3D0689A55DCE2E6B</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Tool Cyborg V.3 Black Ops II_1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Development\Projet VS\Csharp\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="LogIn_Theme_Dll_By_xVenoxi, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Development\Projet VS\Csharp\theme-dll\LogIn_Theme_Dll_By_xVenoxi.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="theme">
+      <HintPath>..\..\..\..\..\..\..\Development\Projet VS\Csharp\theme.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aDateTime.cs" />
+    <Compile Include="buffer44.cs" />
+    <Compile Include="Encoder.cs" />
+    <Compile Include="End_Game.cs" />
+    <Compile Include="eventArgs.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1_2.cs" />
+    <Compile Include="Functions.cs" />
+    <Compile Include="Lib.cs" />
+    <Compile Include="Methods.cs" />
+    <Compile Include="monoflat_theme_-_c#.cs" />
+    <Compile Include="NSGroupBox.cs" />
+    <Compile Include="NSTabControl.cs" />
+    <Compile Include="NSTheme.cs" />
+    <Compile Include="Offsets.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PS3.cs" />
+    <Compile Include="RPC.cs" />
+    <Compile Include="RPC_BO2.cs" />
+    <Compile Include="Variables.cs" />
+    <Compile Include="zombiechangename.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zombiechangename.Designer.cs">
+      <DependentUpon>zombiechangename.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="zombiechangename.resx">
+      <DependentUpon>zombiechangename.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\Alca v2.gsc" />
+    <None Include="Resources\Alca V3.gsc" />
+    <None Include="Resources\AntiFed.gsc" />
+    <None Include="Resources\arctic v3.gsc" />
+    <None Include="Resources\army v4.gscr" />
+    <None Include="Resources\Army.gsc" />
+    <None Include="Resources\Avalanger.gsc" />
+    <None Include="Resources\Aviation v1.5.gsc" />
+    <None Include="Resources\BAREFACE LEO.gsc" />
+    <None Include="Resources\BELGUIM.gsc" />
+    <None Include="Resources\Blazed V1.gsc" />
+    <None Include="Resources\Blue Sky V1.gsc" />
+    <None Include="Resources\Blue Sky V2.gsc" />
+    <None Include="Resources\Bossam V3.gsc" />
+    <None Include="Resources\Bossam V4.gsc" />
+    <None Include="Resources\Bossam V5.gsc" />
+    <None Include="Resources\BossamV1.gsc" />
+    <None Include="Resources\BossamV6.gsc" />
+    <None Include="Resources\Bounce Mod.gsc" />
+    <None Include="Resources\Breaking Earth V1.1.gsc" />
+    <None Include="Resources\CacheCache1.gsc" />
+    <None Include="Resources\Cairo PAtch.gsc" />
+    <None Include="Resources\Caked UP.gsc" />
+    <None Include="Resources\Caked_Up_Has_Swag.gsc" />
+    <None Include="Resources\Capofication V2.gsc" />
+    <None Include="Resources\Closing Time v1.gsc" />
+    <None Include="Resources\Code Green.gsc" />
+    <None Include="Resources\Codeine Crazy Official Release .gsc" />
+    <None Include="Resources\CodeMods v1.gsc" />
+    <None Include="Resources\Confusion.gsc" />
+    <None Include="Resources\Corrupted v3 BETA 1.5.gsc" />
+    <None Include="Resources\Corrupted v3.gsc" />
+    <None Include="Resources\Creation V1 Beta.gsc" />
+    <None Include="Resources\Crisis .gsc" />
+    <None Include="Resources\crusher.gsc" />
+    <None Include="Resources\Crusher11.gsc" />
+    <None Include="Resources\CyanEdition.gsc" />
+    <None Include="Resources\CyborgV1.gsc" />
+    <None Include="Resources\Daniel Wasa.gscr" />
+    <None Include="Resources\Dark Moon V1.gsc" />
+    <None Include="Resources\Dark Shadows v1.gsc" />
+    <None Include="Resources\Death Cry V1 BETA.gsc" />
+    <None Include="Resources\DeathRun.gsc" />
+    <None Include="Resources\Deep ocean v1.gsc" />
+    <None Include="Resources\deeznutzv1.gsc" />
+    <None Include="Resources\Degeneration v1.1 BETA.gsc" />
+    <None Include="Resources\Delusion.gsc" />
+    <None Include="Resources\Destinition.gsc" />
+    <None Include="Resources\Destiny By Enston.gsc" />
+    <None Include="Resources\DiizyMoDz v1.gsc" />
+    <None Include="Resources\DMT V1.gsc" />
+    <None Include="Resources\Dreadnought V3.gsc" />
+    <None Include="Resources\Dreadnought V4.gsc" />
+    <None Include="Resources\Dynamic v2.gsc" />
+    <None Include="Resources\Dynamic V3.1.gsc" />
+    <None Include="Resources\Dynamic V3.3.gsc" />
+    <None Include="Resources\EB Game.gsc" />
+    <None Include="Resources\ELeGanCe Patch.gsc" />
+    <None Include="Resources\ELeGanCe v3.gsc" />
+    <None Include="Resources\Elegance V5.gsc" />
+    <None Include="Resources\EnCoReV2.3 BETA.gsc" />
+    <None Include="Resources\enslaved.gsc" />
+    <None Include="Resources\ERUPTIONV2.gsc" />
+    <None Include="Resources\Escalation v1.gsc" />
+    <None Include="Resources\Exotic V1.gsc" />
+    <None Include="Resources\Exotic V2 BETA.gsc" />
+    <None Include="Resources\Experience.gsc" />
+    <None Include="Resources\Exploit_V1.gsc" />
+    <None Include="Resources\Explosive.gsc" />
+    <None Include="Resources\Extinct%27s S&amp;D.gsc" />
+    <None Include="Resources\Extincts.gsc" />
+    <None Include="Resources\FenixV5.gsc" />
+    <None Include="Resources\ferrox V1.gsc" />
+    <None Include="Resources\FlamezV1.gsc" />
+    <None Include="Resources\Floater Game.gsc" />
+    <None Include="Resources\Floor Lave Game.gsc" />
+    <None Include="Resources\Free All.gsc" />
+    <None Include="Resources\FREEFALL.gsc" />
+    <None Include="Resources\Frosty V1.gsc" />
+    <None Include="Resources\FroZ v1.gsc" />
+    <None Include="Resources\FroZ v2.gsc" />
+    <None Include="Resources\Fuck Sony v3.gsc" />
+    <None Include="Resources\Game  Nuketown Survival.gsc" />
+    <None Include="Resources\Game Border Patrol.gscr" />
+    <None Include="Resources\Game Dodgeball.gscr" />
+    <None Include="Resources\Game Prison Break.gsc" />
+    <None Include="Resources\Game Superman 1v1.gsc" />
+    <None Include="Resources\Game Tricky Myers.gsc" />
+    <None Include="Resources\Genesis.gsc" />
+    <None Include="Resources\GermanModzHD.gsc" />
+    <None Include="Resources\GoldenGun.gsc" />
+    <None Include="Resources\GreenGoblin.gsc" />
+    <None Include="Resources\Haunted.gsc" />
+    <None Include="Resources\Haunted.gscr" />
+    <None Include="Resources\HexyModz Private Patch v2.gsc" />
+    <None Include="Resources\Hide and Seek.gscr" />
+    <None Include="Resources\HostOnly%27s Private.gsc" />
+    <None Include="Resources\HostOnlys Private.gsc" />
+    <None Include="Resources\HostOnlys Trickshot.gsc" />
+    <None Include="Resources\Hunaveli.gsc" />
+    <None Include="Resources\Hundergame.gsc" />
+    <None Include="Resources\Hunger Games.gscr" />
+    <None Include="Resources\hydro.gsc" />
+    <None Include="Resources\Iconic.gsc" />
+    <None Include="Resources\Illuison V1.gsc" />
+    <None Include="Resources\IMT V2.gsc" />
+    <None Include="Resources\INFINITI.gsc" />
+    <None Include="Resources\JiggyMenuV4.2.gsc" />
+    <None Include="Resources\JR JS V5.gsc" />
+    <None Include="Resources\JR JS V6.gsc" />
+    <None Include="Resources\Legend.gsc" />
+    <None Include="Resources\Legends Curse V1 Beta 2.gsc" />
+    <None Include="Resources\lol2b.gsc" />
+    <None Include="Resources\Lost Memories Love.gsc" />
+    <None Include="Resources\LoveOrHatebyxKraveModz.gsc" />
+    <None Include="Resources\Luckyshot.gsc" />
+    <None Include="Resources\Lyberta V2.gsc" />
+    <None Include="Resources\Mario Kart.gscr" />
+    <None Include="Resources\Masacre v1 zomboe.gsc" />
+    <None Include="Resources\Masacre.gsc" />
+    <None Include="Resources\Matrix Trickshot.gsc" />
+    <None Include="Resources\Mod Menu xTvxyv 1.gsc" />
+    <None Include="Resources\ModeMenuFDP.gsc" />
+    <None Include="Resources\MWS Menu.gsc" />
+    <None Include="Resources\Night v1.gsc" />
+    <None Include="Resources\NinjaModzv1.gsc" />
+    <None Include="Resources\Nyctophilia.gsc" />
+    <None Include="Resources\oCmKs 4 Lifes Private Patch.gsc" />
+    <None Include="Resources\Official Project Hiqh v1.gsc" />
+    <None Include="Resources\OldLastV1.gsc" />
+    <None Include="Resources\Original Zombieland Game.gsc" />
+    <None Include="Resources\Overdrive v1.gsc" />
+    <None Include="Resources\Parcour.gsc" />
+    <None Include="Resources\Parcour11.gsc" />
+    <None Include="Resources\PlasmaMods V3.gsc" />
+    <None Include="Resources\Predator v1.3.gsc" />
+    <None Include="Resources\Predator v2.gsc" />
+    <None Include="Resources\Predator v3.gsc" />
+    <None Include="Resources\Predator v6.51.gsc" />
+    <None Include="Resources\Project Dream.gsc" />
+    <None Include="Resources\Project Escape V3.gsc" />
+    <None Include="Resources\Project Hiqh v1.gsc" />
+    <None Include="Resources\Project Hydra.gsc" />
+    <None Include="Resources\Project Iconic.gsc" />
+    <None Include="Resources\Project Lemon v1.gsc" />
+    <None Include="Resources\Project Lethal v2.gsc" />
+    <None Include="Resources\Project Old.gsc" />
+    <None Include="Resources\Project Reeko v2.gsc" />
+    <None Include="Resources\Project Smash V2.gsc" />
+    <None Include="Resources\Project Snow V1.gsc" />
+    <None Include="Resources\Project Stoner v1.gsc" />
+    <None Include="Resources\Project TCM V1.gsc" />
+    <None Include="Resources\Project Ultimate.gsc" />
+    <None Include="Resources\Project Unity.gsc" />
+    <None Include="Resources\Project Unlimited v1.5.4.gsc" />
+    <None Include="Resources\Project Untlimited v1.4.2.gsc" />
+    <None Include="Resources\Project X.gsc" />
+    <None Include="Resources\Project Zombee.gsc" />
+    <None Include="Resources\ProjectAqua.gsc" />
+    <None Include="Resources\ProjectExcellence.gsc" />
+    <None Include="Resources\ProjectFroZv1.gsc" />
+    <None Include="Resources\ProjectFroZv2.gsc" />
+    <None Include="Resources\ProjectHunaveli.gsc" />
+    <None Include="Resources\Projecticonic.gsc" />
+    <None Include="Resources\ProjectIlluminati.gsc" />
+    <None Include="Resources\ProjectLemonv1.gsc" />
+    <None Include="Resources\ProjectMellow.gsc" />
+    <None Include="Resources\ProjectUnity.gsc" />
+    <None Include="Resources\ProjectWaves.gsc" />
+    <None Include="Resources\ProjectWezarq.gsc" />
+    <None Include="Resources\projetescape.gsc" />
+    <None Include="Resources\PS3DOWN.FR V4.gsc" />
+    <None Include="Resources\Purlple Kuch v4.gsc" />
+    <None Include="Resources\Purple Dragon.gsc" />
+    <None Include="Resources\PurpleEdition.gsc" />
+    <None Include="Resources\Rawdog.gsc" />
+    <None Include="Resources\RDC V6.7.GSC" />
+    <None Include="Resources\rebelv1.gsc" />
+    <None Include="Resources\Reblunted.gsc" />
+    <None Include="Resources\Reborn v1.gsc" />
+    <None Include="Resources\Red Tear v1.gsc" />
+    <None Include="Resources\Red Tear v2.1.gsc" />
+    <None Include="Resources\Red Tear v2.gsc" />
+    <None Include="Resources\Red-Rooster V1.2.gsc" />
+    <None Include="Resources\RedDotCity v2.gsc" />
+    <None Include="Resources\RedEdition.gsc" />
+    <None Include="Resources\Redemption V1.8.gsc" />
+    <None Include="Resources\Revolution.gsc" />
+    <None Include="Resources\Ride_My_BicycleV2.gsc" />
+    <None Include="Resources\Sex Game.gsc" />
+    <None Include="Resources\Silent Menu v1.8.gsc" />
+    <None Include="Resources\Silent Menu v1.gsc" />
+    <None Include="Resources\Silent Shadow.gsc" />
+    <None Include="Resources\Sky High v2 new menu.gsc" />
+    <None Include="Resources\Slenderman.gsc" />
+    <None Include="Resources\Snakemodz1.gsc" />
+    <None Include="Resources\Space Bound v1 SML.gsc" />
+    <None Include="Resources\Space Bound v1.gsc" />
+    <None Include="Resources\SS Billcam CONSUMER EDITION 1.gsc" />
+    <None Include="Resources\SSM Millennium.gsc" />
+    <None Include="Resources\SSM The Cypher.gsc" />
+    <None Include="Resources\Superman Game.gsc" />
+    <None Include="Resources\Synthbreaker v1.gsc" />
+    <None Include="Resources\Synthbreaker.gsc" />
+    <None Include="Resources\Syzygyv2.gsc" />
+    <None Include="Resources\Syzygyv2compiled.gsc" />
+    <None Include="Resources\The Golden Gun.gscr" />
+    <None Include="Resources\TheCrusher.gsc" />
+    <None Include="Resources\TheLastOreoV2.gsc" />
+    <None Include="Resources\TheLastOreoV3.gsc" />
+    <None Include="Resources\TheLastOreoV3Stealth.gsc" />
+    <None Include="Resources\TnTRun.gsc" />
+    <None Include="Resources\TogetherPrivate Patch.gsc" />
+    <None Include="Resources\Toxic v1.gsc" />
+    <None Include="Resources\trojan.gsc" />
+    <None Include="Resources\Unbound User v4.gsc" />
+    <None Include="Resources\Unknown Modding.gsc" />
+    <None Include="Resources\Unreleased.gsc" />
+    <None Include="Resources\Velocity V2.gsc" />
+    <None Include="Resources\VelocityV2.gsc" />
+    <None Include="Resources\VerificationModz.gsc" />
+    <None Include="Resources\Waterfall v1.gsc" />
+    <None Include="Resources\Waterfall.gsc" />
+    <None Include="Resources\Waves.gsc" />
+    <None Include="Resources\WhiteWater v5.5.gsc" />
+    <None Include="Resources\xePixTvx%27s Private Menu.gsc" />
+    <None Include="Resources\XPLobby.gscr" />
+    <None Include="Resources\Zario v1.0.gsc" />
+    <None Include="Resources\ZombieLand.gsc" />
+    <None Include="Tool Cyborg V.3 Black Ops II_1_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="10_image.ico" />
+    <Content Include="Bunifu_UI_v1.5.3.dll" />
+    <Content Include="CCAPI.dll" />
+    <Content Include="LogIn_Theme_Dll_By_xVenoxi.dll" />
+    <Content Include="PS3Lib.dll" />
+    <Content Include="ps3tmapi.dll" />
+    <Content Include="ps3tmapi_net.dll" />
+    <None Include="Resources\mettre api.txt" />
+    <None Include="Resources\ExoTiQueModz__OldModz95.jpg" />
+    <None Include="Resources\logo.jpg" />
+    <None Include="Resources\ExoTiQueModz.jpg" />
+    <None Include="Resources\6.png" />
+    <None Include="Resources\5.png" />
+    <None Include="Resources\4.png" />
+    <None Include="Resources\3.png" />
+    <None Include="Resources\2.png" />
+    <None Include="Resources\1yy.png" />
+    <None Include="Resources\28170108_381307235674236_1269340887_o.png" />
+    <None Include="Resources\180_1000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
