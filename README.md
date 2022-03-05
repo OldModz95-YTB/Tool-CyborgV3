@@ -81,7 +81,7 @@ DLL: `CCAPI` - `PS3Lib` - `ps3tmapi` - `ps3tmapi_net`<br>
 ```
 Je ne fournirais aucun support sur son fonctionnement et la mise en place de cette source.
 J'ai fait exprès de retiré les fonctions DLL lié au CCAPI/PS3.
-J'ai sorti cette source pour que permettre de prendre du code et vous donnez de l'inspiration.
+J'ai sorti cette source pour vous permettre de prendre du code et vous donnez de l'inspiration.
 Cette source date de septembre 2019.
 Proposer par OldModz95 & ExoTiQueModz.
 
